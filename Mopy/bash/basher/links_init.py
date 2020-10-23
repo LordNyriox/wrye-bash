@@ -462,6 +462,7 @@ def InitModLinks():
         versionsMenu.links.append(Mods_OblivionVersion(u'1.1b'))
         versionsMenu.links.append(Mods_OblivionVersion(u'GOTY non-SI'))
         versionsMenu.links.append(Mods_OblivionVersion(u'SI'))
+        versionsMenu.links.append(Mods_OblivionVersion(u'GBR SI'))
         ModList.column_links.append(versionsMenu)
         ModList.column_links.append(SeparatorLink())
     ModList.column_links.append(Mods_ListMods())
@@ -630,6 +631,7 @@ def InitModLinks():
         versions_menu.links.append(Mods_OblivionVersion(u'1.1b'))
         versions_menu.links.append(Mods_OblivionVersion(u'GOTY non-SI'))
         versions_menu.links.append(Mods_OblivionVersion(u'SI'))
+        versions_menu.links.append(Mods_OblivionVersion(u'GBR SI'))
         edit_menu.append(versions_menu)
     if bush.game.allTags:
         edit_menu.append(SeparatorLink())
