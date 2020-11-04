@@ -688,6 +688,7 @@ def InitSaveLinks():
         versionsMenu.links.append(Mods_OblivionVersion(u'1.1b',setProfile=True))
         versionsMenu.links.append(Mods_OblivionVersion(u'GOTY non-SI',setProfile=True))
         versionsMenu.links.append(Mods_OblivionVersion(u'SI',setProfile=True))
+        versionsMenu.links.append(Mods_OblivionVersion(u'GBR SI',setProfile=True))
         SaveList.column_links.append(versionsMenu)
     #--SaveList: Item Links
     if True: #--File
@@ -756,6 +757,8 @@ def InitSaveLinks():
             u'GOTY non-SI', setProfile=True))
         versions_menu.links.append(Mods_OblivionVersion(
             u'SI', setProfile=True))
+        versions_menu.links.append(Mods_OblivionVersion(
+            u'GBR SI', setProfile=True))
         edit_menu.append(versions_menu)
     profile_menu = MenuLink(_(u'Profile'))
     profile_menu.append(Saves_Profiles())
