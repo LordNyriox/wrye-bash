@@ -1849,7 +1849,7 @@ class ModInfos(FileInfos):
             u'1.1':        247388848, #--Standard
             u'1.1b':       247388894, # Arthmoor has this size.
             u'GOTY non-SI':247388812, # GOTY version
-            u'SI':         277504985} # Shivering Isles 1.2
+            u'SI':         277504985, # Shivering Isles 1.2
             u'GBR SI':     260961973} # GBR Main File Patch
         self.size_voVersion = {y:x for x, y in self.version_voSize.iteritems()}
         self.voCurrent = None
